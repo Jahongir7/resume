@@ -1,0 +1,194 @@
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  /* primary/main color */
+  --clr-primary-5: hsl(205, 78%, 60%);
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --clr-purple: #4b145b;
+  --clr-red-special: #b4345c;
+  --clr-grey-special: #eae6eb;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-black: #222;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 920px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.clr {
+  clear: both;
+}
+
+.box-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 80vh;
+  margin: 70px auto;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+.photo {
+  width: 50%;
+  display: block;
+  float: left;
+}
+.photo img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.photo {
+  align-items: center;
+  justify-content: center;
+}
+.photo h3 {
+  color: #01fe87;
+}
+.skills {
+  padding: 10px;
+}
+.skills h2 {
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  color: #01fe87;
+}
+.skills p {
+  color: #01fe87;
+  text-align: left;
+}
+.info1 {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 100px auto;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+.AboutPhoto {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AboutPhoto img {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+.info {
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+.fa-lightbulb-on {
+  color: black;
+}
+.question {
+  padding: 0.5rem 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 1rem;
+  border-radius: var(--radius);
+  width: 100%;
+  box-shadow: var(--dark-shadow);
+  box-sizing: border-box;
+}
+.question h4 {
+  text-transform: none;
+  line-height: 1.5;
+  color: #01fe87;
+}
+.question p {
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+.question header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  margin-left: 1rem;
+  align-self: center;
+  min-width: 2rem;
+
+  box-shadow: var(--dark-shadow);
+}
+.btn:focus {
+  outline: none;
+}
+@media (max-width: 676px) {
+  .AboutPhoto {
+    width: 90%;
+    margin: 30px auto;
+  }
+  .AboutPhoto img {
+    width: 100%;
+    height: auto;
+  }
+  .info1 {
+    display: block;
+  }
+  .info {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

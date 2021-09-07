@@ -1,13 +1,17 @@
 import "./App.css";
-import Container from "./Container";
-import HeaderTop from "./components/HeaderTop";
+import AboutMe from "./components/Aboutme";
+import Carusel from "./components/Carusel";
+import ContactUs from "./components/Email";
 import Footer from "./components/Footer";
+import Main from "./components/main";
 
 function App() {
   return (
     <div className="App">
-      <HeaderTop />
-      <Container />
+      <Main />
+      <AboutMe />
+      <Carusel />
+      <ContactUs />
       <Footer />
     </div>
   );

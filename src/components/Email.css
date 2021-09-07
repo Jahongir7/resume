@@ -1,0 +1,103 @@
+.contact-form {
+  height: 60vh;
+  width: 40%;
+  margin: 60px 0;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+input[type="text"],
+input[type="email"] {
+  margin-bottom: 40px;
+  width: 70%;
+  height: auto;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  cursor: pointer;
+  padding: 5px 20px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  backdrop-filter: blur(1115px);
+}
+input[type="submit"]:hover {
+  color: white;
+  background: #01fe87;
+}
+.submit-wrap {
+  display: flex;
+  justify-content: right;
+  width: 70%;
+  height: auto;
+}
+.getintouch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: auto;
+}
+.contact-me {
+  height: 60vh;
+  width: 40%;
+  margin: 60px 0;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+textarea {
+  margin-bottom: 40px;
+  width: 70%;
+  height: auto;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5px;
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  margin: 5px 10px;
+}
+.links {
+  display: block;
+}
+@media (max-width: 676px) {
+  .contact-form {
+    width: 80%;
+  }
+  .getintouch {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-me {
+    width: 80%;
+  }
+}
